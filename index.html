@@ -1,0 +1,15 @@
+<html>
+<head></head>
+<body>
+<input type="text" id="url" style="width: 400px;height:200px;font-size: 80px;">
+<br>
+<br>
+<a id="link" style="font-size: 80px;" href="">Go to site!</a>
+<script>
+    document.getElementById("url").onkeyup = function () {
+        document.getElementById("link").href = document.getElementById("url").value;
+    }
+
+</script>
+</body>
+</html>
